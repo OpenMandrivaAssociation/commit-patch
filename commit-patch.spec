@@ -18,6 +18,17 @@ A blog entry (http://porkrind.org/missives/commit-patch-managing-your-mess)
 about commit-patch provides some detailed information on why you might want to
 use commit-patch.
 
+commit-patch and commit-partial can make commiting partial changes easier with:
+-darcs
+-git
+-mercurial
+-cvs
+-svn
+
+commit-patch-buffer.el is an emacs interface to commit-patch. It allows you to
+just hit C-c C-c in any patch buffer to apply and commit only the changes
+indicated by the patch, regardless of the changes in your working directory. 
+
 %prep
 %setup -q
 
