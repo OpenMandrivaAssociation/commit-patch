@@ -1,13 +1,13 @@
-Name: commit-patch
-Version: 2.2
-Release: %mkrel 1
-Summary: A utility that lets you check select portions of a file into a VCS
-License: GPLv2
-URL: http://porkrind.org/commit-patch/
-Group: Text tools
-Source: http://porkrind.org/commit-patch/commit-patch-2.2.tar.gz
-BuildRoot: %{_tmppath}/%{name}-root
-BuildArch: noarch
+Name:		commit-patch
+Version:	2.3
+Release:	%mkrel 1
+Summary:	A utility that lets you check select portions of a file into a VCS
+License:	GPLv2
+URL:		http://porkrind.org/commit-patch/
+Group:		Text tools
+Source:		http://porkrind.org/commit-patch/%{name}-%{version}.tar.gz
+BuildRoot:	%{_tmppath}/%{name}-root
+BuildArch:	noarch
 
 %description
 Jim Radford and David Caldwell wrote a neat little utility that lets you check
