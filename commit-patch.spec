@@ -1,5 +1,5 @@
 Name:		commit-patch
-Version:	2.3
+Version:	2.4
 Release:	%mkrel 1
 Summary:	A utility that lets you check select portions of a file into a VCS
 License:	GPLv2
