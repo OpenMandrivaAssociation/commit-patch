@@ -49,3 +49,19 @@ rm -Rf %{buildroot}
 %{_bindir}/commit-*
 %{_mandir}/man1/commit-*.*
 %{_datadir}/emacs/site-lisp/%{name}*.el
+
+
+%changelog
+* Sat Nov 27 2010 Sandro Cazzaniga <kharec@mandriva.org> 2.4-1mdv2011.0
++ Revision: 601820
+- update to 2.4
+
+* Fri Mar 26 2010 Sandro Cazzaniga <kharec@mandriva.org> 2.3-1mdv2010.1
++ Revision: 527820
+- update to 2.3
+
+* Tue Oct 27 2009 Buchan Milne <bgmilne@mandriva.org> 2.2-1mdv2010.0
++ Revision: 459550
+- import commit-patch
+
+
