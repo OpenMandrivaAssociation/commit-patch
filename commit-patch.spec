@@ -1,6 +1,6 @@
 Name:		commit-patch
 Version:	2.4
-Release:	%mkrel 1
+Release:	2
 Summary:	A utility that lets you check select portions of a file into a VCS
 License:	GPLv2
 URL:		http://porkrind.org/commit-patch/
