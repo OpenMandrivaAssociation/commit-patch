@@ -3,7 +3,7 @@ Version:	2.6
 Release:	1
 Summary:	A utility that lets you check select portions of a file into a VCS
 License:	GPLv2
-URL:		http://porkrind.org/commit-patch/
+URL:		https://porkrind.org/commit-patch/
 Group:		Text tools
 Source:		http://porkrind.org/commit-patch/%{name}-%{version}.tar.gz
 BuildRoot:	%{_tmppath}/%{name}-root
